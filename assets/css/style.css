@@ -4,6 +4,18 @@
 .bg-color-name-title{
     background-color: #420244;
 }
+.ui-menu-color-home {
+    background-color: #f850c6;
+}
+.ui-menu-color-resume {
+    background-color:#72faaf ;
+}
+.ui-menu-color-contact {
+    background-color: #f8895d;
+}
+.ui-menu-color-download {
+    background-color: #e02dd7;
+}
 
 /*Heading*/
 header {
@@ -36,4 +48,14 @@ header {
     margin-top: 20px;
     margin-bottom: 90px;
     color: #ffffff;
+}
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+.menu-container {
+    font-size: 0;
+}
+#nav li {
+    font-size: 14px;
+    padding: 0;
 }
