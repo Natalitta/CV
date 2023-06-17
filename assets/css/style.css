@@ -179,3 +179,13 @@ footer {
 #footer-details {
     padding: 20px;
 }
+
+/*Reasons*/
+
+.reasons-icon {
+    font-size: 26px;
+    color: #e02dd7;
+}
+.reasons-heading {
+    margin-bottom: 15px;
+}
