@@ -5,8 +5,12 @@
     background-color: #420244;
 }
 .bg-color-reasons {
-    background-color: #ffffff;
+    background-color: #ffffff;    
 }
+.bg-color-info {
+    background-color: #eedbe8;
+}
+
 .ui-menu-color-home {
     background-color: #f850c6;
 }
@@ -188,4 +192,33 @@ footer {
 }
 .reasons-heading {
     margin-bottom: 15px;
+}
+
+/*Info*/
+.info-item {
+    margin-bottom: 20px;
+    display: block;
+    clear: both;
+}
+.info-item .key,
+.info-item .value {
+    padding-right: 8px;
+    display: inline-block;
+}
+.info-item .key p,
+.info-item .value p{
+    margin: 0;
+}
+.info-item .key {
+    width: 30%;
+    margin-right: 21px;
+    padding-top: 2px;
+    vertical-align: top;
+}
+.info-item .key p {
+    font-weight: 700;
+}
+.info-item .value {
+    position: relative;
+    width: 60%;
 }
