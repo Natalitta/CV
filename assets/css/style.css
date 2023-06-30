@@ -22,11 +22,17 @@
 .ui-menu-color-resume {
     background-color:#2cd4b0 ;
 }
+.ui-menu-color-interests {
+    background-color: #8ffa38;
+}
 .ui-menu-color-contact {
     background-color: salmon;
 }
+.ui-menu-color-github {
+    background-color: #338afc;
+}
 .ui-menu-color-download {
-    background-color: #e02dd7;
+    background-color: #d405ca;
 }
 
 /*Special paddings, margins, text*/
@@ -44,7 +50,7 @@ h4 {
 
 .general-sub {
     font-family: "Exo", sans-serif;
-    font-weight: 300;
+    font-weight: 600;
     color: #fafafa;
 }
 
