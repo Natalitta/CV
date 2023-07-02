@@ -16,6 +16,13 @@
 .bg-color-contact {
     background-color: #ffffff;
 }
+.bg-color-conferences {
+    background-color: #f4f4f4;
+}
+
+.bg-color-groups {
+    background-color: #ffffff;
+}
 .ui-menu-color-home {
     background-color: #f850c6;
 }
@@ -36,6 +43,13 @@
 }
 
 /*Special paddings, margins, text*/
+
+body {
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    background-color: #525252;
+    color: #555555;
+}
 
 h1,
 h2,
@@ -158,7 +172,7 @@ footer {
     min-height: 120px;
     margin: 0;
 }
-.cv-pdf i {
+footer .cv-pdf i {
     font-size: 18px;
     color: #fafafa;
     text-align: center;
@@ -183,7 +197,7 @@ footer {
     line-height: 7px;
     text-align: center;
     color: #fafafa;
-    background-color: #e02dd7;
+    background: #e02dd7;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -193,7 +207,7 @@ footer {
     color: #420244;
 }
 #footer-details {
-    padding: 20px;
+    margin: 20px;
 }
 
 /*Reasons*/
@@ -222,6 +236,7 @@ footer {
     margin: 0;
 }
 .info-item .key {
+    display: inline-block;
     width: 30%;
     margin-right: 21px;
     padding-top: 2px;
@@ -231,6 +246,7 @@ footer {
     font-weight: 700;
 }
 .info-item .value {
+    display: inline-block;
     position: relative;
     width: 60%;
 }
@@ -268,7 +284,7 @@ footer {
     padding: 0;
     margin: 0;
 }
-.timeline-item:before {
+.timeline-item::before {
     content: attr(data-dates);
     position: absolute;
     left: 2.5em;
@@ -280,7 +296,7 @@ footer {
     padding: 0;
     margin: 0;
 }
-.timeline-item:after {
+.timeline-item::after {
     width: 12px;
     height: 12px;
     display: block;
@@ -316,8 +332,18 @@ button[type="submit"] {
     background-color: #420244;
 }
 
+/*Map*/
+div#map {
+    min-height: 360px;
+}
+
 /*Media queries*/
 @media(min-width: 992px) {
+    .section-column {
+        padding: 0 30px 30px;
+        float: none;
+        display: table-cell;
+    }
     .center-form {
         padding-top: 30px;
         min-height: 240px;
